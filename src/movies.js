@@ -20,7 +20,7 @@ function howManyMovies(moviesArr) {
 function scoresAverage(movies) {
   const avrageScore = movies.reduce((acc, element) =>{
    return acc + element.score;
-  }, 0 / element.score)
+  }, 0 / element.length)
 }
 
 // Iteration 4: Drama movies - Get the average of Drama Movies
